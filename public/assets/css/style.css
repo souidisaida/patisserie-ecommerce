@@ -47,7 +47,7 @@ label{
 }
 /*-- header --*/
 .header {
-    background: #000;
+    background: #1565c0;
 }
 .header ul li {
     display: inline-block;
@@ -77,6 +77,7 @@ label{
 .header-bot_inner_wthreeinfo_header_mid {
     margin: 0 auto;
     width: 90%;
+	
 }
 /*-- //header --*/
 .social-nav {
@@ -343,7 +344,7 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
 /*-- banner-top --*/
 .ban-top{
 
-	background:#2740DA;
+	background:#1565c0;
     padding: 0px 0;
 	text-transform:uppercase;
 
@@ -1143,7 +1144,7 @@ button.close.top_wthree_agile {
 
 /*-- schedule-bottom --*/
 .schedule-bottom {
-    background: #AC203D;
+    background: #7d483a;
 }
 .agileits_schedule_bottom_right,.agileinfo_schedule_bottom_left {
     padding: 0;
