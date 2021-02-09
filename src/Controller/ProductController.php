@@ -4,9 +4,21 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use App\Entity\Product;
 use App\Repository\ProductRepository;
+use Symfony\Component\Routing\Annotation\Route;
 
 class ProductController extends AbstractController
 {
+	/**
+     * @Route("/shop/definition"  ,name="shop_definition")
+     */
+    public function definition()
+    {
+
+
+        return $this->render('shop/definition.html.twig', [
+          
+        ]);
+    }
     public function index(ProductRepository $productRepository)
     {
         $allProducts = $productRepository->findAll();
